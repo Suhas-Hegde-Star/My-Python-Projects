@@ -1,3 +1,5 @@
+
+
 def asktabala(wanted):
     while True:
         wanted = input("Write the lesson you want (Basic Words)\n")
@@ -9,5 +11,7 @@ def asktabala(wanted):
             print("Ke Ti Ra Ki Ta Ta Ka Ta")
         elif wanted.lower() == "lesson 4":
             print("Ke Ke Ti Ra Ki Ta Ta Ka Ta Ka")
+        elif wanted.lower() == "rela":
+            pass
         else:
             print("Invalid Input. Try again ")
