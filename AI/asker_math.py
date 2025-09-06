@@ -4,7 +4,7 @@ import p2
 
 def askmath(wanted):
     while True:
-        wanted = input("Enter what you want(Basic Words)\n")
+        wanted = input("Enter what you want in math (Basic Words)\n")
         if wanted.lower() == "square":
             a_a.square(num= any, sq= any)
         elif wanted.lower() == "squaring":

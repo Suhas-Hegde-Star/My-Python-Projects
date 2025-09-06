@@ -1,4 +1,5 @@
 import asker_math
+import asker_tabala
 
 def askfinal(wante):
     while True:
@@ -18,14 +19,14 @@ def askfinal(wante):
         elif wante.lower() == "i wanna learn math":
             asker_math.askmath(wanted = any)
         elif wante.lower() == "i wanna do some tabala":
-            pass
+            asker_tabala.asktabala(wanted = any)
         elif wante.lower() == "do some tabala":
-            pass
+            asker_tabala.asktabala(wanted = any)
         elif wante.lower() == "i want to do some tabala":
-            pass
+            asker_tabala.asktabala(wanted = any)
         elif wante.lower() == "i want to learn tabala":
-            pass
+            asker_tabala.asktabala(wanted = any)
         elif wante.lower() == "tabala":
-            pass
+            asker_tabala.asktabala(wanted = any)
         else:
             print("Invalid Input. Try again ")
