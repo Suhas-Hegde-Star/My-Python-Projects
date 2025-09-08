@@ -97,5 +97,23 @@ def asktabala(wanted):
             print(tabala.rela_v2)
         elif wanted.lower() == "want rela_v2":
             print(tabala.rela_v2)
+        elif wanted.lower() == "i want rela 3":
+            print(tabala.rela_v3)
+        elif wanted.lower() == "want rela 3":
+            print(tabala.rela_3)
+        elif wanted.lower() == "i want rela variation 3":
+            print(tabala.rela_v3)
+        elif wanted.lower() == "want rela variation 3":
+            print(tabala.rela_v3)
+        elif wanted.lower() == "rela 3":
+            print(tabala.rela_v3)
+        elif wanted.lower() == "rela variation 3":
+            print(tabala.rela_v3)
+        elif wanted.lower() == "rela_v3":
+            print(tabala.rela_v3)
+        elif wanted.lower() == "i want rela_v3":
+            print(tabala.rela_v3)
+        elif wanted.lower() == "want rela_v3":
+            print(tabala.rela_v3)
         else:
             print("Invalid Input. Try again ")
