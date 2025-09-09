@@ -1,4 +1,5 @@
 import tabala
+from AI.tab import get_rela_variation as t
 
 def asktabala(wanted):
     while True:
@@ -52,68 +53,18 @@ def asktabala(wanted):
         elif wanted.lower() == "want lesson number 4":
             print("Ke Ke Ti Ra Ki Ta Ta Ka Ta Ka")
         elif wanted.lower() == "rela":
-            print(tabala.rela)
+            return t.get_rela_variation(var = any)
         elif wanted.lower() == "i want rela":
-            print(tabala.rela)
+            return t.get_rela_variation(var = any)
         elif wanted.lower() == "want rela":
-            print(tabala.rela)
-        elif wanted.lower() == "want rela variation 1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "i want rela variation 1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "want rela_v1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "i want rela 1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "want rela 1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "rela_v1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "rela 1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "rela variation 1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "rela 1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "i want rela_v1":
-            print(tabala.rela_v1)
-        elif wanted.lower() == "exit":
-            break
-        elif wanted.lower() == "i want rela 2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "want rela 2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "i want rela variation 2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "want rela variation 2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "rela 2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "rela variation 2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "rela_v2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "i want rela_v2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "want rela_v2":
-            print(tabala.rela_v2)
-        elif wanted.lower() == "i want rela 3":
-            print(tabala.rela_v3)
-        elif wanted.lower() == "want rela 3":
-            print(tabala.rela_3)
-        elif wanted.lower() == "i want rela variation 3":
-            print(tabala.rela_v3)
-        elif wanted.lower() == "want rela variation 3":
-            print(tabala.rela_v3)
-        elif wanted.lower() == "rela 3":
-            print(tabala.rela_v3)
-        elif wanted.lower() == "rela variation 3":
-            print(tabala.rela_v3)
-        elif wanted.lower() == "rela_v3":
-            print(tabala.rela_v3)
-        elif wanted.lower() == "i want rela_v3":
-            print(tabala.rela_v3)
-        elif wanted.lower() == "want rela_v3":
-            print(tabala.rela_v3)
+            return t.get_rela_variation(var = any)
+        elif wanted.lower() == "want rela variations":
+            return t.get_rela_variation(var = any)
+        elif wanted.lower() == "i want rela variations":
+            return t.get_rela_variation(var = any)
+        elif wanted.lower() == "want rela variations":
+            return t.get_rela_variation(var = any)
+        elif wanted.lower() == "want 7 rela variations":
+            return t.get_rela_variation(var = any)
         else:
             print("Invalid Input. Try again ")
