@@ -1,5 +1,5 @@
-import tabala
 from AI.tab import get_rela_variation as t
+from AI.tab import teen_taal as tt
 
 def asktabala(wanted):
     while True:
@@ -67,4 +67,4 @@ def asktabala(wanted):
         elif wanted.lower() == "want 7 rela variations":
             return t.get_rela_variation(var = any)
         else:
-            print("Invalid Input. Try again ")
+            tt.teen_taal()
